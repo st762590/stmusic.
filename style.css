@@ -1,0 +1,139 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #00BF63;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-img {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.burger {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.side-nav {
+    width: 250px;
+    height: 100%;
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: 0.3s;
+    overflow-y: auto;
+}
+
+.side-nav.active {
+    left: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    border-bottom: 1px solid #444;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: flex;
+    }
+}
+
+.stmusic-playlists h1{
+  font-size: 25px;
+  margin-bottom: 2px;
+  padding: 15px;
+}
+
+.stmusic-playlists .list{
+  display: inline;
+}
+
+.stmusic-playlists a{
+  display: inline;
+  color: #00BF63;
+  text-decoration: none;
+}
+
+.stmusic-playlists .list .item{
+  min-width: 70px;
+  padding: 15px;
+  background-color: #181818;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+.stmusic-playlists .list .item:hover{
+  background-color: #252525;
+}
+
+.stmusic-playlists .list .item img{
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.stmusic-playlists .list .item .play{
+  position: relative;
+  padding-left: 95%;
+}
+
+.stmusic-playlists .list .item .play .fa{
+  position: absolute;
+  padding: 100px;
+  top: -60px;
+  padding: 18px;
+  background-color: #00BF63;
+  border-radius: 100%;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+
+.stmusic-playlists .list .item:hover .play .fa{
+  opacity: 1;
+  transform: translateY(-20)
+}
