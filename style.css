@@ -309,6 +309,16 @@ h1{
   font-size: 13px;
   color: #00BF63;
   width: 32px;
-  border: 1px solid #fff;
   margin-left: 10px;
+  font-weight: 400;
+}
+
+.menu_song .master_play #currentStart {
+  margin: 0px 0px 0px 20px;
+}
+
+#seek {
+  width: 99vw;
+  height: 30px;
+  padding-top: 15px;
 }
