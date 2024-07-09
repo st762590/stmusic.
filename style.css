@@ -260,9 +260,10 @@ h1{
 }
 
 .menu_song .master_play h5{
-  width: 130px;
-  margin-left: 15px;
+  width: 120px;
+  margin-left: 10px;
   line-height: 17px;
+  border: 1px solid #fff;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -279,7 +280,7 @@ h1{
 
 .menu_song .master_play .icon {
   font-size: 15px;
-  margin: 0px 5px 0px 10px;
+  margin: 0px 0px 0px 0px;
   outline: none;
   align-items: center;
 }
@@ -301,4 +302,9 @@ h1{
   margin-right: 5px;
 }
 
-.menu_song .master_play .icon:nth
+.menu_song .master_play span {
+  color: #00BF63;
+  width: 32px;
+  border: 1px solid #fff;
+  margin-left: 10px;
+}
