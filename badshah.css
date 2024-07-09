@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #00BF63;
+}
+
+.songs-list {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #252525;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.songs-list h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.song-info {
+  display: flex;
+  align-items: center;
+}
+
+.song-info h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.song-info p {
+  font-size: 14px;
+  margin: 0 0 0 10px;
+}
+
+.song-duration {
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+img{
+  width: 98%;
+}
+
+h2{
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 35px;
+}
