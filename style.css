@@ -151,3 +151,42 @@ header {
 .menu_song li {
   background: rgb(105, 105, 105, .1);
 }
+
+.menu_song li span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.menu_song li img{
+  width: 32px;
+  height: 32px;
+  margin-left: 25px;
+}
+
+.menu_song li h5{
+  font-size: 11px;
+  margin-left: 15px;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu_song span{
+  color: lightslategrey;
+}
+
+h1{
+  font-size: 25px;
+  margin-bottom: 2px;
+  padding: 15px;
+}
+
+.menu_song li h5 .subtitle {
+  font-size: 9px;
+}
+
+
+.menu_song li .i{
+  position: absolute;
+  right: 15px;
+}
