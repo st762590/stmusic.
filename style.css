@@ -280,4 +280,25 @@ h1{
 .menu_song .master_play .icon {
   font-size: 15px;
   margin: 0px 5px 0px 10px;
+  outline: none;
+  align-items: center;
 }
+
+.menu_song .master_play .i .icon {
+  cursor: pointer;
+  outline: none;
+}
+
+.menu_song .master_play .icon #download_music{
+  margin-left: 10px;
+}
+
+.menu_song .master_play .icon #forward{
+  margin-left: 5px;
+}
+
+.menu_song .master_play .icon #backward {
+  margin-right: 5px;
+}
+
+.menu_song .master_play .icon:nth
