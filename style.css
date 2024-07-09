@@ -137,3 +137,17 @@ header {
   opacity: 1;
   transform: translateY(-20)
 }
+
+.menu_song li{
+  list-style-type: none;
+  position: relative;
+  padding: 5px 0px 5px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.menu_song li {
+  background: rgb(105, 105, 105, .1);
+}
