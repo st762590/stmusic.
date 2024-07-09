@@ -263,7 +263,6 @@ h1{
   width: 120px;
   margin-left: 10px;
   line-height: 17px;
-  border: 1px solid #fff;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -283,26 +282,32 @@ h1{
   margin: 0px 0px 0px 0px;
   outline: none;
   align-items: center;
+  font-size: 13px;
 }
 
 .menu_song .master_play .i .icon {
   cursor: pointer;
   outline: none;
+  font-size: 13px;
 }
 
 .menu_song .master_play .icon #download_music{
   margin-left: 10px;
+  font-size: 13px;
 }
 
 .menu_song .master_play .icon #forward{
   margin-left: 5px;
+  font-size: 13px;
 }
 
 .menu_song .master_play .icon #backward {
   margin-right: 5px;
+  font-size: 13px;
 }
 
 .menu_song .master_play span {
+  font-size: 13px;
   color: #00BF63;
   width: 32px;
   border: 1px solid #fff;
